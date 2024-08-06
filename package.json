@@ -1,0 +1,14 @@
+{
+  "name": "vsc-wallet-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate": "node src/index.js"
+  },
+  "dependencies": {
+    "dids": "^5.0.2",
+    "key-did-provider-ed25519": "^4.0.2",
+    "key-did-resolver": "^4.0.0",
+    "tweetnacl": "^1.0.3"
+  }
+}
